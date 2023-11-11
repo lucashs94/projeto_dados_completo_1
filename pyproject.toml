@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "workshop-projeto-dados"
+version = "0.1.0"
+description = "my_etl_from_workshop"
+authors = ["lucashs94 <h7.lucas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
